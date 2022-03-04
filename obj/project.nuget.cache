@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yunZeA5SliN2Pl9rjyqQjoEJgIrpI8sRSB2ybwu6DSBVNmntxoF/3G5ECxb+jtdI4AqZ5ideTd6U9qJLnRUYUg==",
+  "success": true,
+  "projectFilePath": "/home/domin/Desktop/Calculator/Calculator.csproj",
+  "expectedPackageFiles": [
+    "/home/domin/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.2/microsoft.aspnetcore.app.ref.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

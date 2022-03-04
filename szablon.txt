@@ -1,0 +1,30 @@
+1. odpal kalkulator
+2. handluj user input
+3. updatuj obiekty
+4. renderuj okno
+
+
+init:
+    main.cpp ma inicjalizowac wszystkie obiekty i okno aplikacji
+
+handle:
+    zbieraj event
+    jezeli klik to wywolaj OnMouseClick i OnKeyDown event -> subskrybenci to kazdy obiek IClickable
+    kazdy IClickable musi miec swoja logike za kliknieciem przyjmujaca event
+    OnMouseClick event args to polozenie kursora
+
+    guziki beda wysylac UpdateRequest za kazda zmiana
+    Update bedzie zapisywal wartosci do Application i wywolywal render()
+    
+    Render() updatuje tlo wysyla event dla IVisible
+    Kazdy obiekt IVisible ma posiadac implementacje swojego Render(), zawierac tex i rect itp.
+
+ALU:
+    ma zapisywac input. ma posiadac implementacje Output() ktora obliczy a nastepnie
+    wyswietli wynik za pomoca odpowiedniego obiektu IChangeable
+    nastepnie ma wyczyscic pamiec podreczna
+    
+Aplikacja tworzy componenty na podstawie parametrow przekazanych do CreateNewComponent
+ID componentow bedzie enumeratorem
+dodatkowo zrobimy dict z ID i odpowiednim polozeniem I TEXTURA
+za pomoca petli mozemy zainicjalizowac je wszystkie na raz

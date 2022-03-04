@@ -1,0 +1,15 @@
+/home/domin/Desktop/Calculator/bin/Debug/net6.0/Calculator
+/home/domin/Desktop/Calculator/bin/Debug/net6.0/Calculator.deps.json
+/home/domin/Desktop/Calculator/bin/Debug/net6.0/Calculator.runtimeconfig.json
+/home/domin/Desktop/Calculator/bin/Debug/net6.0/Calculator.dll
+/home/domin/Desktop/Calculator/bin/Debug/net6.0/ref/Calculator.dll
+/home/domin/Desktop/Calculator/bin/Debug/net6.0/Calculator.pdb
+/home/domin/Desktop/Calculator/obj/Debug/net6.0/Calculator.csproj.AssemblyReference.cache
+/home/domin/Desktop/Calculator/obj/Debug/net6.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/domin/Desktop/Calculator/obj/Debug/net6.0/Calculator.AssemblyInfoInputs.cache
+/home/domin/Desktop/Calculator/obj/Debug/net6.0/Calculator.AssemblyInfo.cs
+/home/domin/Desktop/Calculator/obj/Debug/net6.0/Calculator.csproj.CoreCompileInputs.cache
+/home/domin/Desktop/Calculator/obj/Debug/net6.0/Calculator.dll
+/home/domin/Desktop/Calculator/obj/Debug/net6.0/ref/Calculator.dll
+/home/domin/Desktop/Calculator/obj/Debug/net6.0/Calculator.pdb
+/home/domin/Desktop/Calculator/obj/Debug/net6.0/Calculator.genruntimeconfig.cache
