@@ -311,8 +311,12 @@ namespace Calculator
                 }
                 else
                 {
-                    displayValue *= 10;
-                    displayValue += id;
+
+                    try
+                    {
+                        displayValue += id;
+                    }
+                    catch {error = true;}
                 }
                 digits.Push(id);
                 currentOperation = Operation.ADD_NUMBER;
